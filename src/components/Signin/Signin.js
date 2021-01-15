@@ -22,14 +22,15 @@ class Signin extends React.Component {
       method: "post",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
-        email: this.state.signInEmail,
+        email: this.state.signInEmail, 
         password: this.state.signInPassword
       })
     })
       .then(response => response.json())
-      .then(data => {
-        if (data === "success") {
-          this.props.onRouteChange("home")
+      .then(user => {
+        if(user.id) {
+          this.props.loadUser(user);
+          this.props.onRouteChange("home");
         }
     })
   }
