@@ -3,7 +3,7 @@ import React from "react";
 
 const Logo = () => {
     return (
-        <div className="ma4 mt0"> 👽
+        <div className="ma4 mt0 f-headline"> 👽
             {/* <Tilt className="Tilt br2 shadow-2" options={{ max : 25 }} style={{ height: 150, width: 150 }} >
             <div className="Tilt-inner"> 👽 </div>
             </Tilt> */}

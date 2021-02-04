@@ -5,7 +5,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
     return (
         <div>
             <p className ="f3">
-                {"This Magic Alien will detect faces in your pictures. Give it a try!"}
+                {"This Magic Alien will detect faces in your pictures!  Give it a try, make sure to use photos starting with https"}
             </p>
             <div className="center">
                 <div className="form pa4 br3 shadow-5">
