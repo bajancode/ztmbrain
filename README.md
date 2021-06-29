@@ -13,3 +13,5 @@ Upcoming features:
 - Use new Clarifai API to be able to detect emotion's in the face
 
 Completed as part of coursework with thanks to Andrei Neagoie and community.
+
+View live: https://smart-brain-fe-bajan.herokuapp.com/
